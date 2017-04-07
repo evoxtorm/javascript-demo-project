@@ -8,7 +8,7 @@ var myApp = require('../app/library.js');
 
 describe("Arithmetic Functionality", function() {
   it("should return 2 as average for 1, 2, 3", function() {
-    assert(myApp.computeAverage(1,2,3) == 2);
+    assert(myApp.computeAverage(1, 2, 3) == 2);
   })
   it("should return 5 as average for 3, 7, 5", function() {
     assert(myApp.computeAverage(3, 7, 5) == 5);
